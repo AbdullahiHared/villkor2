@@ -73,5 +73,49 @@ public class main {
        } else {
         System.out.println("You don't have permission.");
        }
+
+       //  username and password
+       System.out.println("User name and password");
+       sc.nextLine();
+
+       String root = "root";
+       String password = "passwd";
+       System.out.println("What is your username");
+       String userName = sc.nextLine();
+       sc.nextLine();
+       
+       System.out.println("what is your password");
+       String userPassword = sc.nextLine();
+
+       if (userName.equals(root) && userPassword.equals(password)) {
+        System.out.println("Welcome");
+       } else {
+        System.out.println("Wrong username or password.");
+       }
+
+
+      // using switch statement
+
+      System.out.println("Switch case");
+      sc.nextLine();
+      
+      System.out.println("Meny värde program");
+      System.out.println("1 skriv ut temperatur");
+      System.out.println("2 Skriv ut vind");
+      System.out.println("3 Skriv ut luftmotstånd");
+      int userChoice = sc.nextInt();
+
+      switch(userChoice) {
+        case 1 : System.out.println("Det är 18 grader");
+        break;
+        case 2 : System.out.println("Vinden är 10 sekund-meter");
+        break;
+        case 3 : System.out.println("Det är 100% luftfuktighet&quot");
+        break;
+
+        default: System.out.println("Fel val");
+      }
+
+
     }
 }
