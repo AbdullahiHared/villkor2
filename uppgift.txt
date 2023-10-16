@@ -1,0 +1,38 @@
+
+b) Skapa ett program som innehåller 2 heltals variabler tal1=10 och tal2=20.
+Använd en if-sats för att kolla om tal2 är större än tal1, om så är fallet skriv ut ”värdet
+tal2” är värdet större än ”värdet tal1”.
+System.out.println(tal2+&quot; är större än &quot;+tal1);
+c) Fortsätt med programmet och skapa en else-sats som skriver ut ”värdet tal2” är mindre än
+”värdet tal1”. Testa else-satsen genom att ändra deklarationen på tal2 till 0. int tal2=0;
+System.out.println(tal2+&quot; är mindre än &quot;+tal1);
+
+d) Skapa ett program som frågar användaren vad klockan är (heltal ex 13).
+Programmet ska sedan jämföra av tiden och:
+Om klockan är över 7 skriv: dags att gå upp
+Om klockan är exakt 12 skriv: dags att äta
+Om klockan är över 23 skriv: dags att gå och lägga sig.
+
+e) Skapa ett dörrvakts-program för en klubb använd logiska operatorer.
+
+Programmet frågar användaren hen om ålder och om hen är medlem.
+Är användaren är minst 18 år ELLER om hen är medlem så får hen komma in.
+Annars så användaren inte komma in.
+Skriv ut resultatet
+
+f) Skapa ett program som frågar efter användarnamn och lösenord ( 2 Strängar)
+Programmet ska kontrollera att användarnamn är root OCH att lösenord är passwd.
+
+g) Du ska använda SWITCH-CASE sats i detta program. Skapa ett program som visar en meny
+System.out.println(&quot;Meny Väderprogram&quot;);
+System.out.println(&quot;1. Skriv ut temperatur&quot;);
+System.out.println(&quot;2. Skriv ut Vind&quot;);
+System.out.println(&quot;3. Skriv ut luftfuktighet&quot;);
+System.out.print(&quot;Ange val:&quot;);
+och tar in ett val (heltal).
+Valet ska jämföras i en switch-sats
+Om valet är 1 ska &quot;Det är 18 grader&quot; skrivas ut
+Om valet är 2 ska &quot; Vinden är 10 sekund-meter &quot; skrivas ut
+Om valet är 3 ska &quot; Det är 100% luftfuktighet&quot; skrivas ut
+
+Om användaren skrivit in ngt annat så ska programmet skriva ”Fel val”
