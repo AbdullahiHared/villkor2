@@ -42,14 +42,36 @@ public class main {
         double time = sc.nextDouble();
 
        if (time == 7) {
-        System.out.println("Dags att vakna upp");
+        System.out.println("Time to wake up");
        }
         else if (time == 12.00) {
-        System.out.println("Dags att äta lunch");
+        System.out.println("Lunch time");
        } else if (time == 23.00 || time < 7) {
-        System.out.println("Dags att gå och lägga sig.");
+        System.out.println("Time to sleep.");
        } else {
         System.out.println("You choose what to do");
+       }
+
+       sc.nextLine();
+
+       // Club entry
+       
+       System.out.println("A you a member");
+       String member = sc.nextLine();
+       System.out.println("How old are you");
+       int userAge = sc.nextInt();
+       boolean isMember;
+
+       if (member.equalsIgnoreCase("yes")) {
+         isMember = true;
+       } else {
+         isMember = false;
+       }
+
+       if (userAge >= 18 && isMember == true) {
+        System.out.println("come in");
+       } else {
+        System.out.println("You don't have permission.");
        }
     }
 }
